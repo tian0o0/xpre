@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render left & right slot 1`] = `
+<div class="x-nav-bar x-hairline--bottom" style="z-index: 1;">
+  <div class="x-nav-bar__left">Custom Left</div>
+  <div class="x-nav-bar__title x-ellipsis"></div>
+  <div class="x-nav-bar__right">Custom Right</div>
+</div>
+`;
+
+exports[`render title slot 1`] = `
+<div class="x-nav-bar x-hairline--bottom" style="z-index: 1;">
+  <div class="x-nav-bar__left"></div>
+  <div class="x-nav-bar__title x-ellipsis">Custom Title</div>
+  <div class="x-nav-bar__right"></div>
+</div>
+`;

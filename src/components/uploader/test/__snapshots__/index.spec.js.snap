@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`delete preview image 1`] = `
+<div class="x-uploader">
+  <div class="x-uploader__wrapper">
+    <div class="x-uploader__upload" style="width: 30px; height: 30px;"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input type="file" accept="image/*" class="x-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`disable preview image 1`] = `
+<div class="x-uploader">
+  <div class="x-uploader__wrapper">
+    <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input type="file" accept="image/*" class="x-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`max-count prop 1`] = `
+<div class="x-uploader">
+  <div class="x-uploader__wrapper">
+    <div class="x-uploader__preview">
+      <div class="x-image x-uploader__preview-image"><img src="data:image/test" class="x-image__img" style="object-fit: cover;">
+        <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+      </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`preview-size prop 1`] = `
+<div class="x-uploader">
+  <div class="x-uploader__wrapper">
+    <div class="x-uploader__preview" style="">
+      <div class="x-image x-uploader__preview-image" style="width: 30px; height: 30px;"><img src="data:image/test" class="x-image__img" style="object-fit: cover;">
+        <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+      </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+    </div>
+    <div class="x-uploader__upload" style="width: 30px; height: 30px;"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input type="file" accept="image/*" class="x-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`render preview image 1`] = `
+<div class="x-uploader">
+  <div class="x-uploader__wrapper">
+    <div class="x-uploader__preview">
+      <div class="x-image x-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="x-image__img" style="object-fit: cover;">
+        <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+      </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+    </div>
+    <div class="x-uploader__preview">
+      <div class="x-uploader__file"><i class="x-icon x-icon-description x-uploader__file-icon"></i>
+        <div class="x-uploader__file-name x-ellipsis">https://img.yzcdn.cn/vant/test.pdf</div>
+      </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+    </div>
+    <div class="x-uploader__preview">
+      <div class="x-uploader__file"><i class="x-icon x-icon-description x-uploader__file-icon"></i>
+        <div class="x-uploader__file-name x-ellipsis">test.pdf</div>
+      </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+    </div>
+    <div class="x-uploader__preview">
+      <div class="x-image x-uploader__preview-image"><img src="data:image/test" class="x-image__img" style="object-fit: cover;">
+        <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+      </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+    </div>
+    <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input type="file" accept="image/*" class="x-uploader__input"></div>
+  </div>
+</div>
+`;
+
+exports[`render upload-text 1`] = `
+<div class="x-uploader">
+  <div class="x-uploader__wrapper">
+    <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><span class="x-uploader__upload-text">Text</span><input type="file" accept="image/*" class="x-uploader__input"></div>
+  </div>
+</div>
+`;

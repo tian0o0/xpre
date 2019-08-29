@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div class="x-cell-group__title">group title</div>
+      <div class="x-cell-group x-hairline--top-bottom">
+        <div class="x-cell x-cell--required">
+          <div class="x-cell__title"><span>单元格</span></div>
+          <div class="x-cell__value"><span>内容</span></div>
+        </div>
+        <div class="x-cell">
+          <div class="x-cell__title"><span>单元格</span>
+            <div class="x-cell__label">描述信息</div>
+          </div>
+          <div class="x-cell__value"><span>内容</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-cell">
+      <div class="x-cell__title"><span>单元格</span></div>
+      <div class="x-cell__value"><span>内容</span></div>
+    </div>
+    <div class="x-cell x-cell--large">
+      <div class="x-cell__title"><span>单元格</span>
+        <div class="x-cell__label">描述信息</div>
+      </div>
+      <div class="x-cell__value"><span>内容</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="x-cell"><i class="x-icon x-icon-location-o x-cell__left-icon"></i>
+      <div class="x-cell__title"><span>单元格</span></div>
+      <div class="x-cell__value"><span>内容</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="x-cell">
+      <div class="x-cell__value x-cell__value--alone"><span>内容</span></div>
+    </div>
+  </div>
+  <div>
+    <div class="x-cell x-cell--clickable">
+      <div class="x-cell__title"><span>单元格</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+    <div class="x-cell x-cell--clickable">
+      <div class="x-cell__title"><span>单元格</span></div>
+      <div class="x-cell__value"><span>内容</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+    <div class="x-cell x-cell--clickable">
+      <div class="x-cell__title"><span>单元格</span></div>
+      <div class="x-cell__value"><span>内容</span></div><i class="x-icon x-icon-arrow-down x-cell__right-icon"></i>
+    </div>
+  </div>
+  <div>
+    <div class="x-cell x-cell--clickable">
+      <div class="x-cell__title"><span>单元格</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+    <div class="x-cell x-cell--clickable">
+      <div class="x-cell__title"><span>单元格</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div class="x-cell-group__title">分组 1</div>
+      <div class="x-cell-group x-hairline--top-bottom">
+        <div class="x-cell">
+          <div class="x-cell__title"><span>单元格</span></div>
+          <div class="x-cell__value"><span>内容</span></div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="x-cell-group__title">分组 2</div>
+      <div class="x-cell-group x-hairline--top-bottom">
+        <div class="x-cell">
+          <div class="x-cell__title"><span>单元格</span></div>
+          <div class="x-cell__value"><span>内容</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-cell x-cell--clickable">
+      <div class="x-cell__title"><span class="custom-title">单元格</span></div>
+      <div class="x-cell__value"><span>内容</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+    <div class="x-cell"><i class="x-icon x-icon-shop-o x-cell__left-icon"></i>
+      <div class="x-cell__title"><span>单元格</span></div><i class="x-icon x-icon-search" style="line-height: inherit;"></i>
+    </div>
+  </div>
+</div>
+`;

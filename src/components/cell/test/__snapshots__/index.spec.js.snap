@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arrow direction 1`] = `<div class="x-cell x-cell--clickable"><i class="x-icon x-icon-arrow-down x-cell__right-icon"></i></div>`;
+
+exports[`render slot 1`] = `
+<div class="x-cell">Custom Icon<div class="x-cell__title">Custom Title<div class="x-cell__label">Custom Label</div>
+  </div>
+</div>
+`;
+
+exports[`title-style prop 1`] = `
+<div class="x-cell">
+  <div class="x-cell__title" style="color: red;"><span>title</span></div>
+</div>
+`;

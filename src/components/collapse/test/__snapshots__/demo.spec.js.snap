@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="x-collapse x-hairline--top-bottom">
+      <div class="x-collapse-item">
+        <div role="button" tabindex="0" aria-expanded="true" class="x-cell x-cell--clickable x-collapse-item__title x-collapse-item__title--expanded">
+          <div class="x-cell__title"><span>标题1</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+        <div class="x-collapse-item__wrapper">
+          <div class="x-collapse-item__content">代码是写出来给人看的，附带能在机器上运行</div>
+        </div>
+      </div>
+      <div class="x-collapse-item x-hairline--top">
+        <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+          <div class="x-cell__title"><span>标题2</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+      </div>
+      <div class="x-collapse-item x-hairline--top">
+        <div role="button" tabindex="-1" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title x-collapse-item__title--disabled">
+          <div class="x-cell__title"><span>标题3</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-collapse x-hairline--top-bottom">
+      <div class="x-collapse-item">
+        <div role="button" tabindex="0" aria-expanded="true" class="x-cell x-cell--clickable x-collapse-item__title x-collapse-item__title--expanded">
+          <div class="x-cell__title"><span>标题1</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+        <div class="x-collapse-item__wrapper">
+          <div class="x-collapse-item__content">代码是写出来给人看的，附带能在机器上运行</div>
+        </div>
+      </div>
+      <div class="x-collapse-item x-hairline--top">
+        <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+          <div class="x-cell__title"><span>标题2</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+      </div>
+      <div class="x-collapse-item x-hairline--top">
+        <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+          <div class="x-cell__title"><span>标题3</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-collapse x-hairline--top-bottom">
+      <div class="x-collapse-item">
+        <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+          <div class="x-cell__title">
+            标题1<i class="x-icon x-icon-question-o"></i></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+      </div>
+      <div class="x-collapse-item x-hairline--top">
+        <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title"><i class="x-icon x-icon-shop-o x-cell__left-icon"></i>
+          <div class="x-cell__title"><span>标题2</span></div>
+          <div class="x-cell__value"><span>内容</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

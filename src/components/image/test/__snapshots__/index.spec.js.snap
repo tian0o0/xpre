@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`lazy load 1`] = `
+<div class="x-image"><img class="x-image__img">
+  <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+</div>
+`;
+
+exports[`lazy-load error event 1`] = `
+<div class="x-image">
+  <div class="x-image__error"><i class="x-icon x-icon-warning-o" style="font-size: 22px;"></i></div>
+</div>
+`;
+
+exports[`lazy-load load event 1`] = `<div class="x-image"><img class="x-image__img"></div>`;
+
+exports[`load event 1`] = `<div class="x-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="x-image__img"></div>`;
+
+exports[`load event 2`] = `
+<div class="x-image"><img src="" class="x-image__img">
+  <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+</div>
+`;
+
+exports[`show-error prop 1`] = `<div class="x-image"></div>`;
+
+exports[`show-loading prop 1`] = `<div class="x-image"><img class="x-image__img"></div>`;

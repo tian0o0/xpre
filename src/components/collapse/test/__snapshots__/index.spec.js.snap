@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`disable border 1`] = `
+<div class="x-collapse">
+  <div class="x-collapse-item">
+    <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+      <div class="x-cell__title"><span>a</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+  </div>
+  <div class="x-collapse-item x-hairline--top">
+    <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+      <div class="x-cell__title"><span>b</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+  </div>
+  <div class="x-collapse-item x-hairline--top">
+    <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+      <div class="x-cell__title"><span>c</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`lazy render collapse content 1`] = `
+<div class="x-collapse x-hairline--top-bottom">
+  <div class="x-collapse-item" style="padding: 0px;">
+    <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">
+      <div class="x-cell__title"><span>a</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+  </div>
+  <div class="x-collapse-item x-hairline--top" style="padding: 0px;">
+    <div role="button" tabindex="0" aria-expanded="true" class="x-cell x-cell--clickable x-collapse-item__title x-collapse-item__title--expanded">
+      <div class="x-cell__title"><span>b</span></div><i class="x-icon x-icon-arrow x-cell__right-icon"></i>
+    </div>
+    <div class="x-collapse-item__wrapper">
+      <div class="x-collapse-item__content">content</div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`render collapse-item slot 1`] = `
+<div class="x-collapse x-hairline--top-bottom">
+  <div class="x-collapse-item">
+    <div role="button" tabindex="0" aria-expanded="false" class="x-cell x-cell--clickable x-collapse-item__title">this is icon<div class="x-cell__title">this is title</div>
+      <div class="x-cell__value">this is value</div>this is right icon
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+@import '../../styles/var';
+
+.x-col {
+  float: left;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+
+.generate-col(24);
+.generate-col(@n, @i: 1) when (@i =< @n) {
+  .x-col--@{i} { width: @i * 100% / 24; }
+  .x-col--offset-@{i} { margin-left: @i * 100% / 24; }
+  .generate-col(@n, (@i + 1));
+}

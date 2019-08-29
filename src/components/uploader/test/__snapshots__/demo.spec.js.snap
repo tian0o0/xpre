@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="x-uploader">
+      <div class="x-uploader__wrapper">
+        <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input type="file" accept="image/*" class="x-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-uploader">
+      <div class="x-uploader__wrapper">
+        <div class="x-uploader__preview">
+          <div class="x-image x-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="x-image__img" style="object-fit: cover;">
+            <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
+          </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
+        </div>
+        <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input multiple="multiple" type="file" accept="*" class="x-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-uploader">
+      <div class="x-uploader__wrapper">
+        <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input multiple="multiple" type="file" accept="image/*" class="x-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-uploader">
+      <div class="x-uploader__wrapper">
+        <div class="x-uploader__input-wrapper"><button class="x-button x-button--primary x-button--normal"><i class="x-icon x-icon-photo x-button__icon"></i><span class="x-button__text">
+        上传文件
+      </span></button><input type="file" accept="image/*" class="x-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="x-uploader">
+      <div class="x-uploader__wrapper">
+        <div class="x-uploader__upload"><i class="x-icon x-icon-plus x-uploader__upload-icon"></i><input type="file" accept="image/*" class="x-uploader__input"></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

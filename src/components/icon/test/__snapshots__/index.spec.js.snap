@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render icon default slot 1`] = `<i class="x-icon x-icon-success">Default slot</i>`;
+
+exports[`render icon with builtin icon name 1`] = `<i class="x-icon x-icon-success"></i>`;
+
+exports[`render icon with local image 1`] = `<i class="x-icon"></i>`;
+
+exports[`render icon with url name 1`] = `<i class="x-icon"></i>`;
+
+exports[`size without unit 1`] = `<i class="x-icon x-icon-undefined" style="font-size: 20px;"></i>`;
+
+exports[`tag prop 1`] = `<div class="x-icon x-icon-undefined"></div>`;

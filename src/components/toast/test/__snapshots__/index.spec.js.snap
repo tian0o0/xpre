@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create a forbidClick toast 1`] = `<div class="x-toast x-toast--middle" style="z-index: 2000;" name="x-fade"><i class="x-icon x-icon-success x-toast__icon"></i></div>`;
+
+exports[`icon prop 1`] = `
+<div class="x-toast x-toast--middle" style="z-index: 2004;" name="x-fade"><i class="x-icon x-icon-star-o x-toast__icon"></i>
+  <div class="x-toast__text">Message</div>
+</div>
+`;
+
+exports[`icon-prefix prop 1`] = `
+<div class="x-toast x-toast--middle" style="z-index: 2005;" name="x-fade"><i class="my-icon my-icon-star-o x-toast__icon"></i>
+  <div class="x-toast__text">Message</div>
+</div>
+`;
+
+exports[`show html toast 1`] = `
+<div class="x-toast x-toast--middle x-toast--text" style="z-index: 2003;" name="x-fade">
+  <div class="x-toast__text">
+    <div>Message</div>
+  </div>
+</div>
+`;
+
+exports[`show loading toast 1`] = `
+<div class="x-toast x-toast--middle" style="z-index: 2002;" name="x-fade">
+  <div class="x-loading x-loading--circular x-toast__loading"><span class="x-loading__spinner x-loading__spinner--circular" style="color: white;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+  <div class="x-toast__text">Message</div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders demo correctly 1`] = `
+<div>
+  <div>
+    <div class="x-loading x-loading--circular"><span class="x-loading__spinner x-loading__spinner--circular" style="color: rgb(201, 201, 201);"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+    <div class="x-loading x-loading--spinner"><span class="x-loading__spinner x-loading__spinner--spinner" style="color: rgb(201, 201, 201);"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+  </div>
+  <div>
+    <div class="x-loading x-loading--circular"><span class="x-loading__spinner x-loading__spinner--circular" style="color: rgb(25, 137, 250);"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
+    <div class="x-loading x-loading--spinner"><span class="x-loading__spinner x-loading__spinner--spinner" style="color: rgb(25, 137, 250);"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="x-loading__text" style="color: rgb(25, 137, 250);">dengdai</span></div>
+  </div>
+  <div>
+    <div class="x-loading x-loading--circular"><span class="x-loading__spinner x-loading__spinner--circular" style="color: rgb(201, 201, 201); width: 48px; height: 48px;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span><span class="x-loading__text" style="color: rgb(201, 201, 201);">加载中...</span></div>
+  </div>
+  <div>
+    <div class="x-loading x-loading--circular x-loading--vertical"><span class="x-loading__spinner x-loading__spinner--circular" style="color: rgb(201, 201, 201); width: 24px; height: 24px;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span><span class="x-loading__text" style="color: rgb(201, 201, 201);">加载中...</span></div>
+  </div>
+</div>
+`;
