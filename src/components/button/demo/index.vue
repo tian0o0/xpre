@@ -47,7 +47,7 @@
       />
     </demo-block>
 
-    <demo-block :title="$t('plain')">
+    <!-- <demo-block :title="$t('plain')">
       <x-button
         plain
         type="primary"
@@ -58,9 +58,9 @@
         type="danger"
         :text="$t('plain')"
       />
-    </demo-block>
+    </demo-block> -->
 
-    <demo-block :title="$t('hairline')">
+    <!-- <demo-block :title="$t('hairline')">
       <x-button
         plain
         hairline
@@ -73,7 +73,7 @@
         type="danger"
         :text="$t('hairlineButton')"
       />
-    </demo-block>
+    </demo-block> -->
 
     <demo-block :title="$t('disabled')">
       <x-button
@@ -105,7 +105,7 @@
       />
     </demo-block>
 
-    <demo-block :title="$t('shape')">
+    <!-- <demo-block :title="$t('shape')">
       <x-button
         type="primary"
         square
@@ -116,9 +116,9 @@
         round
         :text="$t('round')"
       />
-    </demo-block>
+    </demo-block> -->
 
-    <demo-block :title="$t('icon')">
+    <!-- <demo-block :title="$t('icon')">
       <x-button
         type="primary"
         icon="star-o"
@@ -134,7 +134,7 @@
         icon="https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png"
         :text="$t('button')"
       />
-    </demo-block>
+    </demo-block> -->
 
     <demo-block :title="$t('size')">
       <x-button

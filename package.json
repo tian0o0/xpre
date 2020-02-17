@@ -18,7 +18,7 @@
     "lint": "eslint ./src --ext .js,less,.vue,.ts,.tsx && stylelint \"src/**/*.less\" --fix",
     "build:entry": "node build/build-entry.js",
     "build:lib": "node build/build-lib.js",
-    "build:site": "rm -rf docs/dist && cross-env NODE_ENV=production webpack --config build/webpack.doc.js && gh-pages -d docs/dist",
+    "build:site": "rm -rf docs/dist && cross-env NODE_ENV=production webpack --config build/webpack.doc.js && echo xpre.xietian.xyz > docs/dist/CNAME && gh-pages -d docs/dist",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:clear-cache": "jest --clearCache",

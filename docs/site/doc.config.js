@@ -103,10 +103,10 @@ export default {
             groupName: 'C',
             list: [
 
-              {
-                path: '/cell',
-                title: 'Cell'
-              },
+              //   {
+              //     path: '/cell',
+              //     title: 'Cell'
+              //   },
               {
                 path: '/collapse',
                 title: 'Collapse'
@@ -120,10 +120,10 @@ export default {
                 path: '/icon',
                 title: 'Icon'
               },
-              {
-                path: '/image',
-                title: 'Image'
-              },
+              //   {
+              //     path: '/image',
+              //     title: 'Image'
+              //   },
               {
                 path: '/image-preview',
                 title: 'ImagePreview'
@@ -148,15 +148,15 @@ export default {
               },
             ]
           },
-          {
-            groupName: 'O',
-            list: [
-              {
-                path: '/overlay',
-                title: 'Overlay'
-              },
-            ]
-          },
+          //   {
+          //     groupName: 'O',
+          //     list: [
+          //       {
+          //         path: '/overlay',
+          //         title: 'Overlay'
+          //       },
+          //     ]
+          //   },
           {
             groupName: 'S',
             list: [
