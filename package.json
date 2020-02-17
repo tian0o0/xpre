@@ -17,7 +17,6 @@
     "dev": "npm run build:entry && webpack-dev-server --config build/webpack.dev.js",
     "lint": "eslint ./src --ext .js,less,.vue,.ts,.tsx && stylelint \"src/**/*.less\" --fix",
     "build:entry": "node build/build-entry.js",
-    "build:changelog": "vant-doc changelog ./docs/markdown/changelog.generated.md --tag 0.0.1",
     "build:lib": "node build/build-lib.js",
     "build:site": "rm -rf docs/dist && cross-env NODE_ENV=production webpack --config build/webpack.doc.js && gh-pages -d docs/dist",
     "test": "jest",
@@ -68,9 +67,7 @@
     "@findx/doc": "^1.1.2",
     "@findx/markdown2vue-loader": "^0.1.0",
     "@types/jest": "^24.0.15",
-    "@vant/eslint-config": "^1.2.0",
-    "@vant/markdown-vetur": "^1.0.0",
-    "@vant/touch-emulator": "^1.1.0",
+
     "@vue/babel-preset-jsx": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.29",
     "autoprefixer": "^9.6.1",
