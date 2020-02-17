@@ -3,32 +3,34 @@
 exports[`renders demo correctly 1`] = `
 <div>
   <div>
-    <div class="demo-button-row"><button class="x-button x-button--default x-button--normal"><span class="x-button__text">
+    <div class="demo-button-row"><button class="x-button x-button--default x-button--large" style="color: rgb(255, 255, 255); background: red; border-color: red;"><span class="x-button__text">
         默认按钮
-      </span></button> <button class="x-button x-button--primary x-button--normal"><span class="x-button__text">
+      </span></button> <button class="x-button x-button--primary x-button--large"><span class="x-button__text">
         主要按钮
-      </span></button> <button class="x-button x-button--info x-button--normal"><span class="x-button__text">
+      </span></button> <button class="x-button x-button--info x-button--large"><span class="x-button__text">
         信息按钮
-      </span></button></div> <button class="x-button x-button--danger x-button--normal"><span class="x-button__text">
+      </span></button></div> <button class="x-button x-button--danger x-button--large"><span class="x-button__text">
       危险按钮
-    </span></button> <button class="x-button x-button--warning x-button--normal"><span class="x-button__text">
+    </span></button> <button class="x-button x-button--warning x-button--large"><span class="x-button__text">
       警告按钮
     </span></button>
   </div>
-  <div><button class="x-button x-button--primary x-button--normal x-button--ripple"><span class="x-button__text">水波纹按钮</span></button></div>
-  <div><button class="x-button x-button--primary x-button--normal x-button--raised"><span class="x-button__text">悬浮按钮</span></button></div>
-  <div><button class="x-button x-button--primary x-button--normal x-button--plain"><span class="x-button__text">朴素按钮</span></button> <button class="x-button x-button--danger x-button--normal x-button--plain"><span class="x-button__text">朴素按钮</span></button></div>
-  <div><button class="x-button x-button--primary x-button--normal x-button--hairline x-button--plain x-hairline--surround"><span class="x-button__text">细边框按钮</span></button> <button class="x-button x-button--danger x-button--normal x-button--hairline x-button--plain x-hairline--surround"><span class="x-button__text">细边框按钮</span></button></div>
-  <div><button disabled="disabled" class="x-button x-button--primary x-button--normal x-button--disabled"><span class="x-button__text">禁用状态</span></button> <button disabled="disabled" class="x-button x-button--danger x-button--normal x-button--disabled"><span class="x-button__text">禁用状态</span></button></div>
-  <div><button class="x-button x-button--primary x-button--normal">
+  <div><button class="x-button x-button--primary x-button--large x-button--ripple"><span class="x-button__text">水波纹按钮</span></button></div>
+  <div><button class="x-button x-button--primary x-button--large x-button--raised"><span class="x-button__text">悬浮按钮</span></button></div>
+  <div><button class="x-button x-button--primary x-button--large x-button--plain"><span class="x-button__text">朴素按钮</span></button> <button class="x-button x-button--danger x-button--large x-button--plain"><span class="x-button__text">朴素按钮</span></button></div>
+  <div><button class="x-button x-button--primary x-button--large x-button--hairline x-button--plain x-hairline--surround"><span class="x-button__text">细边框按钮</span></button> <button class="x-button x-button--danger x-button--large x-button--hairline x-button--plain x-hairline--surround"><span class="x-button__text">细边框按钮</span></button></div>
+  <div><button disabled="disabled" class="x-button x-button--primary x-button--large x-button--disabled"><span class="x-button__text">禁用状态</span></button> <button disabled="disabled" class="x-button x-button--danger x-button--large x-button--disabled"><span class="x-button__text">禁用状态</span></button></div>
+  <div><button class="x-button x-button--primary x-button--large">
       <div class="x-loading x-loading--circular x-button__loading"><span class="x-loading__spinner x-loading__spinner--circular" style="width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
-    </button> <button class="x-button x-button--primary x-button--normal">
+    </button> <button class="x-button x-button--primary x-button--large">
       <div class="x-loading x-loading--spinner x-button__loading"><span class="x-loading__spinner x-loading__spinner--spinner" style="width: 20px; height: 20px;"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
-    </button> <button class="x-button x-button--danger x-button--normal">
+    </button> <button class="x-button x-button--danger x-button--large">
       <div class="x-loading x-loading--circular x-button__loading"><span class="x-loading__spinner x-loading__spinner--circular" style="width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div><span class="x-button__text">加载中...</span>
     </button></div>
-  <div><button class="x-button x-button--primary x-button--normal x-button--square"><span class="x-button__text">方形按钮</span></button> <button class="x-button x-button--danger x-button--normal x-button--round"><span class="x-button__text">圆形按钮</span></button></div>
-  <div><button class="x-button x-button--primary x-button--normal"><i class="x-icon x-icon-star-o x-button__icon"></i></button> <button class="x-button x-button--primary x-button--normal"><i class="x-icon x-icon-star-o x-button__icon"></i><span class="x-button__text">按钮</span></button> <button class="x-button x-button--primary x-button--normal x-button--plain"><i class="x-icon x-button__icon"></i><span class="x-button__text">按钮</span></button></div>
+  <div><button class="x-button x-button--primary x-button--large x-button--square"><span class="x-button__text">方形按钮</span></button> <button class="x-button x-button--danger x-button--large x-button--round"><span class="x-button__text">圆形按钮</span></button></div>
+  <div><button class="x-button x-button--primary x-button--large"><i class="x-icon x-icon-star-o x-button__icon"></i></button> <button class="x-button x-button--primary x-button--large"><i class="x-icon x-icon-star-o x-button__icon"></i><span class="x-button__text">按钮</span></button> <button class="x-button x-button--primary x-button--large x-button--plain"><i class="x-icon x-button__icon">
+        <div class="x-image x-icon__image"><img src="https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png" class="x-image__img" style="object-fit: contain;"></div>
+      </i><span class="x-button__text">按钮</span></button></div>
   <div><button class="x-button x-button--primary x-button--large"><span class="x-button__text">
       大号按钮
     </span></button> <button class="x-button x-button--primary x-button--normal"><span class="x-button__text">

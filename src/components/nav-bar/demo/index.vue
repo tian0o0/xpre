@@ -2,9 +2,9 @@
   <demo-section>
     <demo-block :title="$t('basicUsage')">
       <x-nav-bar
-        :title="$t('title')"
-        :left-text="$t('back')"
-        :right-text="$t('button')"
+        title="人在塔在"
+        left-text="返回"
+        right-text="开大"
         left-arrow
         @click-left="onClickLeft"
         @click-right="onClickRight"
@@ -13,12 +13,12 @@
 
     <demo-block :title="$t('advancedUsage')">
       <x-nav-bar
-        :title="$t('title')"
-        :left-text="$t('back')"
+        title="人在塔在"
+        left-text="返回"
         left-arrow
       >
         <template #right>
-          <x-icon name="search" />
+          <x-icon name="sousuo" />
         </template>
       </x-nav-bar>
     </demo-block>
@@ -34,10 +34,10 @@ export default {
   },
   methods: {
     onClickLeft() {
-      this.$toast(this.$t('back'));
+      this.$toast('点击左按钮');
     },
     onClickRight() {
-      this.$toast(this.$t('button'));
+      this.$toast('点击右按钮');
     }
   }
 };

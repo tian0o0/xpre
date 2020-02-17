@@ -4,7 +4,6 @@
       <x-button
         type="primary"
         :text="$t('showOverlay')"
-        style="margin-left: 16px;"
         @click="show = true"
       />
 

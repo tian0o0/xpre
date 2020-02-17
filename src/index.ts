@@ -9,12 +9,17 @@ import Collapse from './components/collapse';
 import CollapseItem from './components/collapse-item';
 import Icon from './components/icon';
 import Image from './components/image';
+import ImagePreview from './components/image-preview';
 import Lazyload from './components/lazyload';
 import Loading from './components/loading';
 import Locale from './components/locale';
 import NavBar from './components/nav-bar';
 import Overlay from './components/overlay';
 import Row from './components/row';
+import Scroll from './components/scroll';
+import Slide from './components/slide';
+import Swipe from './components/swipe';
+import SwipeItem from './components/swipe-item';
 import Toast from './components/toast';
 import Uploader from './components/uploader';
 
@@ -34,10 +39,15 @@ const components: any[] = [
   CollapseItem,
   Icon,
   Image,
+  ImagePreview,
   Loading,
   NavBar,
   Overlay,
   Row,
+  Scroll,
+  Slide,
+  Swipe,
+  SwipeItem,
   Toast,
   Uploader
 ];
@@ -64,12 +74,17 @@ export {
   CollapseItem,
   Icon,
   Image,
+  ImagePreview,
   Lazyload,
   Loading,
   Locale,
   NavBar,
   Overlay,
   Row,
+  Scroll,
+  Slide,
+  Swipe,
+  SwipeItem,
   Toast,
   Uploader
 };

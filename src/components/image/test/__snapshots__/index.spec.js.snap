@@ -14,7 +14,7 @@ exports[`lazy-load error event 1`] = `
 
 exports[`lazy-load load event 1`] = `<div class="x-image"><img class="x-image__img"></div>`;
 
-exports[`load event 1`] = `<div class="x-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="x-image__img"></div>`;
+exports[`load event 1`] = `<div class="x-image"><img src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png" class="x-image__img"></div>`;
 
 exports[`load event 2`] = `
 <div class="x-image"><img src="" class="x-image__img">

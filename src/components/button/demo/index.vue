@@ -4,6 +4,7 @@
       <div class="demo-button-row">
         <x-button
           type="default"
+          color="red"
         >
           {{ $t('default') }}
         </x-button>
@@ -130,7 +131,7 @@
       <x-button
         plain
         type="primary"
-        icon="https://recruitment-hoook.oss-cn-beijing.aliyuncs.com/logo.png"
+        icon="https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png"
         :text="$t('button')"
       />
     </demo-block>
@@ -216,6 +217,11 @@ export default {
       raised: 'Raised'
     }
   },
+  methods: {
+    hehe() {
+    //   alert('hehe');
+    }
+  }
 };
 </script>
 

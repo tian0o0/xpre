@@ -15,7 +15,7 @@ export default {
   'zh-CN': {
     header: {
       logo: {
-        image: 'https://recruitment-hoook.oss-cn-beijing.aliyuncs.com/logo.png',
+        image: 'https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png',
         title: 'Xpre',
         href: '#/'
       },
@@ -88,17 +88,34 @@ export default {
         showInMobile: true,
         groups: [
           {
-            groupName: '基础',
+            groupName: 'B',
             icon: 'https://img.yzcdn.cn/vant/basic-0401.svg',
             list: [
               {
                 path: '/button',
                 title: 'Button'
               },
+
+
+            ]
+          },
+          {
+            groupName: 'C',
+            list: [
+
               {
                 path: '/cell',
                 title: 'Cell'
               },
+              {
+                path: '/collapse',
+                title: 'Collapse'
+              },
+            ]
+          },
+          {
+            groupName: 'I',
+            list: [
               {
                 path: '/icon',
                 title: 'Icon'
@@ -107,19 +124,68 @@ export default {
                 path: '/image',
                 title: 'Image'
               },
-            //   {
-            //     path: '/popup',
-            //     title: 'Popup 弹出层'
-            //   }
+              {
+                path: '/image-preview',
+                title: 'ImagePreview'
+              },
             ]
           },
           {
-            groupName: '布局',
+            groupName: 'L',
             list: [
               {
                 path: '/col',
                 title: 'Layout'
+              },
+            ]
+          },
+          {
+            groupName: 'N',
+            list: [
+              {
+                path: '/nav-bar',
+                title: 'NavBar'
+              },
+            ]
+          },
+          {
+            groupName: 'O',
+            list: [
+              {
+                path: '/overlay',
+                title: 'Overlay'
+              },
+            ]
+          },
+          {
+            groupName: 'S',
+            list: [
+              {
+                path: '/scroll',
+                title: 'Scroll'
+              },
+              {
+                path: '/slide',
+                title: 'Slide'
               }
+            ]
+          },
+          {
+            groupName: 'T',
+            list: [
+              {
+                path: '/toast',
+                title: 'Toast'
+              }
+            ]
+          },
+          {
+            groupName: 'U',
+            list: [
+              {
+                path: '/uploader',
+                title: 'Uploader'
+              },
             ]
           },
           //   {
@@ -184,155 +250,141 @@ export default {
           //       }
           //     ]
           //   },
-          {
-            groupName: '弹框提示',
-            icon: 'passed',
-            list: [
-            //   {
-            //     path: '/action-sheet',
-            //     title: 'ActionSheet 上拉菜单'
-            //   },
-            //   {
-            //     path: '/dialog',
-            //     title: 'Dialog 弹出框'
-            //   },
-            //   {
-            //     path: '/dropdown-menu',
-            //     title: 'DropdownMenu 下拉菜单'
-            //   },
-            //   {
-            //     path: '/loading',
-            //     title: 'Loading 加载'
-            //   },
-            //   {
-            //     path: '/notify',
-            //     title: 'Notify 消息通知'
-            //   },
-            // {
-            //   path: '/pull-refresh',
-            //   title: 'PullRefresh 下拉刷新'
-            // },
-            // {
-            //   path: '/swipe-cell',
-            //   title: 'SwipeCell 滑动单元格'
-            // },
-              {
-                path: '/overlay',
-                title: 'Overlay'
-              },
-              {
-                path: '/toast',
-                title: 'Toast'
-              }
-            ]
-          },
-          {
-            groupName: '数据展示',
-            icon: 'photo-o',
-            list: [
-            //   {
-            //     path: '/circle',
-            //     title: 'Circle 环形进度条'
-            //   },
-              {
-                path: '/uploader',
-                title: 'Uploader'
-              },
-              {
-                path: '/collapse',
-                title: 'Collapse'
-              },
-            //   {
-            //     path: '/count-down',
-            //     title: 'CountDown 倒计时'
-            //   },
-            //   {
-            //     path: '/divider',
-            //     title: 'Divider 分割线'
-            //   },
-            //   {
-            //     path: '/image-preview',
-            //     title: 'ImagePreview 图片预览'
-            //   },
-            //   {
-            //     path: '/lazyload',
-            //     title: 'Lazyload 图片懒加载'
-            //   },
-            //   {
-            //     path: '/list',
-            //     title: 'List 列表'
-            //   },
-            //   {
-            //     path: '/notice-bar',
-            //     title: 'NoticeBar 通知栏'
-            //   },
-            //   {
-            //     path: '/panel',
-            //     title: 'Panel 面板'
-            //   },
-            //   {
-            //     path: '/progress',
-            //     title: 'Progress 进度条'
-            //   },
-            //   {
-            //     path: '/skeleton',
-            //     title: 'Skeleton 骨架屏'
-            //   },
-            //   {
-            //     path: '/steps',
-            //     title: 'Steps 步骤条'
-            //   },
-            //   {
-            //     path: '/sticky',
-            //     title: 'Sticky 粘性布局'
-            //   },
-            //   {
-            //     path: '/swipe',
-            //     title: 'Swipe 轮播'
-            //   },
-            //   {
-            //     path: '/tag',
-            //     title: 'Tag 标记'
-            //   }
-            ]
-          },
-        //   {
-        //     groupName: '导航组件',
-        //     icon: 'https://img.yzcdn.cn/vant/nav-0401.svg',
-        //     list: [
-        //       {
-        //         path: '/grid',
-        //         title: 'Grid 宫格'
-        //       },
-        //       {
-        //         path: '/index-bar',
-        //         title: 'IndexBar 索引栏'
-        //       },
-        //       {
-        //         path: '/nav-bar',
-        //         title: 'NavBar 导航栏'
-        //       },
-        //       {
-        //         path: '/pagination',
-        //         title: 'Pagination 分页'
-        //       },
-        //       {
-        //         path: '/sidebar',
-        //         title: 'Sidebar 侧边导航'
-        //       },
-        //       {
-        //         path: '/tab',
-        //         title: 'Tab 标签页'
-        //       },
-        //       {
-        //         path: '/tabbar',
-        //         title: 'Tabbar 标签栏'
-        //       },
-        //       {
-        //         path: '/tree-select',
-        //         title: 'TreeSelect 分类选择'
-        //       }
-        //     ]
+          //   {
+          // groupName: '弹框提示',
+          // icon: 'passed',
+          // list: [
+          //   {
+          //     path: '/action-sheet',
+          //     title: 'ActionSheet 上拉菜单'
+          //   },
+          //   {
+          //     path: '/dialog',
+          //     title: 'Dialog 弹出框'
+          //   },
+          //   {
+          //     path: '/dropdown-menu',
+          //     title: 'DropdownMenu 下拉菜单'
+          //   },
+          //   {
+          //     path: '/loading',
+          //     title: 'Loading 加载'
+          //   },
+          //   {
+          //     path: '/notify',
+          //     title: 'Notify 消息通知'
+          //   },
+          // {
+          //   path: '/pull-refresh',
+          //   title: 'PullRefresh 下拉刷新'
+          // },
+          // {
+          //   path: '/swipe-cell',
+          //   title: 'SwipeCell 滑动单元格'
+          // },
+
+
+          // ]
+          //   },
+          //   {
+          // groupName: '数据展示',
+          // icon: 'photo-o',
+          // list: [
+          //   {
+          //     path: '/circle',
+          //     title: 'Circle 环形进度条'
+          //   },
+
+
+          //   {
+          //     path: '/count-down',
+          //     title: 'CountDown 倒计时'
+          //   },
+          //   {
+          //     path: '/divider',
+          //     title: 'Divider 分割线'
+          //   },
+          //   {
+          //     path: '/image-preview',
+          //     title: 'ImagePreview 图片预览'
+          //   },
+          //   {
+          //     path: '/lazyload',
+          //     title: 'Lazyload 图片懒加载'
+          //   },
+          //   {
+          //     path: '/list',
+          //     title: 'List 列表'
+          //   },
+          //   {
+          //     path: '/notice-bar',
+          //     title: 'NoticeBar 通知栏'
+          //   },
+          //   {
+          //     path: '/panel',
+          //     title: 'Panel 面板'
+          //   },
+          //   {
+          //     path: '/progress',
+          //     title: 'Progress 进度条'
+          //   },
+          //   {
+          //     path: '/skeleton',
+          //     title: 'Skeleton 骨架屏'
+          //   },
+          //   {
+          //     path: '/steps',
+          //     title: 'Steps 步骤条'
+          //   },
+          //   {
+          //     path: '/sticky',
+          //     title: 'Sticky 粘性布局'
+          //   },
+          //   {
+          //     path: '/swipe',
+          //     title: 'Swipe'
+          //   },
+
+          //   {
+          //     path: '/tag',
+          //     title: 'Tag 标记'
+          //   }
+          // ]
+          //   },
+          //   {
+          // groupName: '导航',
+          // icon: 'https://img.yzcdn.cn/vant/nav-0401.svg',
+          // list: [
+          //   {
+          //     path: '/grid',
+          //     title: 'Grid 宫格'
+          //   },
+          //   {
+          //     path: '/index-bar',
+          //     title: 'IndexBar 索引栏'
+          //   },
+
+          //   {
+          //     path: '/pagination',
+          //     title: 'Pagination 分页'
+          //   },
+          //   {
+          //     path: '/sidebar',
+          //     title: 'Sidebar 侧边导航'
+          //   },
+          //   {
+          //     path: '/tab',
+          //     title: 'Tab 标签页'
+          //   },
+          //   {
+          //     path: '/tabbar',
+          //     title: 'Tabbar 标签栏'
+          //   },
+          //   {
+          //     path: '/tree-select',
+          //     title: 'TreeSelect 分类选择'
+          //   }
+          // ]
         //   },
         //   {
         //     groupName: '业务组件',
@@ -384,7 +436,7 @@ export default {
     header: {
       logo: {
         image:
-          'https://recruitment-hoook.oss-cn-beijing.aliyuncs.com/logo.png',
+          'https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png',
         title: 'Xpre',
         href: '#/'
       },

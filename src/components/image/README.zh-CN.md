@@ -18,7 +18,7 @@ Vue.use(Image);
 <x-image
   width="100"
   height="100"
-  src="https://img.yzcdn.cn/vant/cat.jpeg"
+  src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png"
 />
 ```
 
@@ -31,7 +31,7 @@ Vue.use(Image);
   width="10rem"
   height="10rem"
   fit="contain"
-  src="https://img.yzcdn.cn/vant/cat.jpeg"
+  src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png"
 />
 ```
 
@@ -44,7 +44,7 @@ Vue.use(Image);
   round
   width="10rem"
   height="10rem"
-  src="https://img.yzcdn.cn/vant/cat.jpeg"
+  src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png"
 />
 ```
 
@@ -57,7 +57,7 @@ Vue.use(Image);
   width="100"
   height="100"
   lazy-load
-  src="https://img.yzcdn.cn/vant/cat.jpeg"
+  src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png"
 />
 ```
 
@@ -66,7 +66,7 @@ Vue.use(Image);
 `Image`组件提供了默认的加载中提示，支持通过`loading`插槽自定义内容
 
 ```html
-<x-image src="https://img.yzcdn.cn/vant/cat.jpeg">
+<x-image src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png">
   <template v-slot:loading>
     <x-loading type="spinner" size="20" />
   </template>
@@ -78,7 +78,7 @@ Vue.use(Image);
 `Image`组件提供了默认的加载失败提示，支持通过`error`插槽自定义内容
 
 ```html
-<x-image src="https://img.yzcdn.cn/vant/cat.jpeg">
+<x-image src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png">
   <template v-slot:error>加载失败</template>
 </x-image>
 ```
@@ -87,7 +87,7 @@ Vue.use(Image);
 
 ### Props
 
-| 参数 | 说明 | 类型 | 默认值 | 版本 |
+| 参数 | 说明 | 类型 | 默认值 |
 |------|------|------|------|------|
 | src | 图片链接 | `string` | - | - |
 | fit | 图片填充模式，可选`fill` `cover` `contain` `none` `scale-down` | `string` | `fill` | - |

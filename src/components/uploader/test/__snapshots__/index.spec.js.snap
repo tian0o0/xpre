@@ -45,17 +45,17 @@ exports[`render preview image 1`] = `
 <div class="x-uploader">
   <div class="x-uploader__wrapper">
     <div class="x-uploader__preview">
-      <div class="x-image x-uploader__preview-image"><img src="https://img.yzcdn.cn/vant/cat.jpeg" class="x-image__img" style="object-fit: cover;">
+      <div class="x-image x-uploader__preview-image"><img src="https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png" class="x-image__img" style="object-fit: cover;">
         <div class="x-image__loading"><i class="x-icon x-icon-photo-o" style="font-size: 22px;"></i></div>
       </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
     </div>
     <div class="x-uploader__preview">
-      <div class="x-uploader__file"><i class="x-icon x-icon-description x-uploader__file-icon"></i>
+      <div class="x-uploader__file"><i class="x-icon x-icon-folder x-uploader__file-icon"></i>
         <div class="x-uploader__file-name x-ellipsis">https://img.yzcdn.cn/vant/test.pdf</div>
       </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
     </div>
     <div class="x-uploader__preview">
-      <div class="x-uploader__file"><i class="x-icon x-icon-description x-uploader__file-icon"></i>
+      <div class="x-uploader__file"><i class="x-icon x-icon-folder x-uploader__file-icon"></i>
         <div class="x-uploader__file-name x-ellipsis">test.pdf</div>
       </div><i class="x-icon x-icon-delete x-uploader__preview-delete"></i>
     </div>

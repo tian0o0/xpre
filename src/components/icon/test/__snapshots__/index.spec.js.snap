@@ -4,9 +4,17 @@ exports[`render icon default slot 1`] = `<i class="x-icon x-icon-success">Defaul
 
 exports[`render icon with builtin icon name 1`] = `<i class="x-icon x-icon-success"></i>`;
 
-exports[`render icon with local image 1`] = `<i class="x-icon"></i>`;
+exports[`render icon with local image 1`] = `
+<i class="x-icon">
+  <div class="x-image x-icon__image"><img src="/assets/icon.jpg" class="x-image__img" style="object-fit: contain;"></div>
+</i>
+`;
 
-exports[`render icon with url name 1`] = `<i class="x-icon"></i>`;
+exports[`render icon with url name 1`] = `
+<i class="x-icon">
+  <div class="x-image x-icon__image"><img src="https://img.yzcdn.com/icon.jpg" class="x-image__img" style="object-fit: contain;"></div>
+</i>
+`;
 
 exports[`size without unit 1`] = `<i class="x-icon x-icon-undefined" style="font-size: 20px;"></i>`;
 

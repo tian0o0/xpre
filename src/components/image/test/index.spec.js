@@ -13,7 +13,7 @@ test('click event', () => {
 test('load event', () => {
   const wrapper = mount(Image, {
     propsData: {
-      src: 'https://img.yzcdn.cn/vant/cat.jpeg'
+      src: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png'
     }
   });
 
@@ -29,7 +29,7 @@ test('load event', () => {
 test('error event', () => {
   const wrapper = mount(Image, {
     propsData: {
-      src: 'https://img.yzcdn.cn/vant/cat.jpeg'
+      src: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png'
     }
   });
 
@@ -41,7 +41,7 @@ test('error event', () => {
 test('lazy load', () => {
   const wrapper = mount(Image, {
     propsData: {
-      src: 'https://img.yzcdn.cn/vant/cat.jpeg',
+      src: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png',
       lazyLoad: true
     }
   });
@@ -53,7 +53,7 @@ test('lazy-load load event', done => {
   const wrapper = mount(Image, {
     propsData: {
       lazyLoad: true,
-      src: 'https://img.yzcdn.cn/vant/cat.jpeg'
+      src: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png'
     },
     mocks: {
       $Lazyload: {
@@ -116,7 +116,7 @@ test('show-error prop', () => {
   const wrapper = mount(Image, {
     propsData: {
       showError: false,
-      src: 'https://img.yzcdn.cn/vant/cat.jpeg'
+      src: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png'
     }
   });
 

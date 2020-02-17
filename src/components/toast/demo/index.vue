@@ -7,12 +7,12 @@
       >
         {{ $t('title1') }}
       </x-button>
-      <x-button
+      <!-- <x-button
         type="primary"
         @click="$toast($t('longText'))"
       >
         {{ $t('longTextButton') }}
-      </x-button>
+      </x-button> -->
     </demo-block>
 
     <demo-block :title="$t('title2')">
@@ -127,7 +127,7 @@ export default {
     showImageToast() {
       this.$toast({
         message: this.$t('customImage'),
-        icon: 'https://img.yzcdn.cn/vant/logo.png'
+        icon: 'https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png'
       });
     },
 
@@ -161,7 +161,7 @@ export default {
   background-color: @white;
 
   .x-button {
-    margin-left: @padding-md;
+    margin-bottom: @padding-md;
   }
 }
 </style>

@@ -30,7 +30,7 @@ function Overlay(
   slots: DefaultSlots,
   ctx: RenderContext<OverlayProps>
 ) {
-  const style: { [key: string]: any } = {
+  const style: Record<string, string | number> = {
     zIndex: props.zIndex,
     ...props.customStyle
   };

@@ -14,14 +14,11 @@
     "types"
   ],
   "scripts": {
-    "bootstrap": "yarn || npm i",
     "dev": "npm run build:entry && webpack-dev-server --config build/webpack.dev.js",
     "lint": "eslint ./src --ext .js,less,.vue,.ts,.tsx && stylelint \"src/**/*.less\" --fix",
     "build:entry": "node build/build-entry.js",
     "build:changelog": "vant-doc changelog ./docs/markdown/changelog.generated.md --tag 0.0.1",
     "build:lib": "node build/build-lib.js",
-    "build:vant": "cross-env NODE_ENV=production webpack --color --config build/webpack.build.js",
-    "build:vant:min": "cross-env NODE_ENV=production webpack -p --color --config build/webpack.build.js",
     "build:site": "rm -rf docs/dist && cross-env NODE_ENV=production webpack --config build/webpack.doc.js && gh-pages -d docs/dist",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -52,6 +49,9 @@
   "homepage": "https://github.com/tian0o0/xpre#readme",
   "dependencies": {
     "@babel/runtime": "^7.5.4",
+    "@better-scroll/core": "^2.0.0-beta.2",
+    "@better-scroll/scroll-bar": "^2.0.0-beta.2",
+    "@better-scroll/slide": "^2.0.0-beta.2",
     "vue-lazyload": "1.2.3"
   },
   "peerDependencies": {
@@ -65,7 +65,7 @@
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-typescript": "^7.3.3",
-    "@findx/doc": "^1.1.1",
+    "@findx/doc": "^1.1.2",
     "@findx/markdown2vue-loader": "^0.1.0",
     "@types/jest": "^24.0.15",
     "@vant/eslint-config": "^1.2.0",

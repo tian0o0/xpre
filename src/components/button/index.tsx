@@ -1,6 +1,7 @@
 import { createNamespace, noop } from '../../utils';
 import { emit, inherit } from '../../utils/functional';
 import { routeProps, RouteProps, functionalRoute } from '../../utils/router';
+import { WHITE } from '../../utils/color';
 import Icon from '../icon';
 import Loading, { LoadingType } from '../loading';
 
@@ -31,6 +32,7 @@ export type ButtonProps = RouteProps & {
   loadingText?: string;
   ripple?: boolean;
   raised?: boolean;
+  color?: string;
 };
 
 export type ButtonEvents = {
@@ -47,7 +49,7 @@ function Button(
   ctx: RenderContext<ButtonProps>
 ) {
 
-  const { icon, type, size, nativeType, disabled, loading, hairline, loadingText, block, plain, round, square, ripple, raised } = props;
+  const { icon, type, size, nativeType, disabled, loading, hairline, loadingText, block, plain, round, square, ripple, raised, color } = props;
 
   function onClick(event: Event) {
     if (!loading && !disabled) {
@@ -59,6 +61,26 @@ function Button(
 //   function onTouchstart(event: TouchEvent) {
 //     emit(ctx, 'touchstart', event);
 //   }
+
+  // const style: {[propName: string]: string | number} = {};
+  // Record(https://www.leevii.com/2018/10/record-in-typescript.html)
+  const style: Record<string, string | number> = {};
+  if(color) {
+    if (plain) {
+      style.color = color
+    } else {
+      style.color = WHITE
+      style.background = color
+    }
+
+    // hide border when color is linear-gradient
+    if (color.indexOf('gradient') !== -1) {
+      style.border = 0;
+    } else {
+      style.borderColor = color;
+    }
+  }
+
 
   const classes = [
     bem([
@@ -78,6 +100,7 @@ function Button(
     { 'x-hairline--surround': hairline }
   ];
 
+  // 内容返回一个数组
   function Content() {
     const content = [];
     if (loading) {
@@ -106,10 +129,13 @@ function Button(
 
     return content;
   }
-
-  // don't inherit listeners, need handle listeners in the component
+  // inherit(ctx)
+  // don't inherit listeners, need handle listeners in the component（相当于把组件上绑定的事件拿到组件内部处理后再执行）
+  // inherit(ctx, true)
+  // 执行组件绑定的事件，组件内部不去处理
   return (
     <props.tag
+      style={style}
       class={classes}
       type={nativeType}
       disabled={disabled}
@@ -138,6 +164,7 @@ Button.props = {
   loadingType: String,
   ripple: Boolean,
   raised: Boolean,
+  color: String,
   tag: {
     type: String,
     default: 'button'
@@ -148,7 +175,7 @@ Button.props = {
   },
   size: {
     type: String,
-    default: 'normal'
+    default: 'large'
   },
   loadingSize: {
     type: String,

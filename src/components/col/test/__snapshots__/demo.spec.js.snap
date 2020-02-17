@@ -3,19 +3,6 @@
 exports[`renders demo correctly 1`] = `
 <div>
   <div>
-    <div class="x-row">
-      <div class="x-col x-col--8">8</div>
-      <div class="x-col x-col--8">8</div>
-      <div class="x-col x-col--8">8</div>
-    </div>
-    <div class="x-row">
-      <div class="x-col x-col--4">4</div>
-      <div class="x-col x-col--10 x-col--offset-1">
-        10, offset = 1
-      </div>
-    </div>
-  </div>
-  <div>
     <div class="x-row" style="margin-left: -10px; margin-right: -10px;">
       <div class="x-col x-col--8" style="padding-left: 10px; padding-right: 10px;">8</div>
       <div class="x-col x-col--8" style="padding-left: 10px; padding-right: 10px;">8</div>

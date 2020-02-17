@@ -4,7 +4,7 @@ import VueRouter from 'vue-router';
 import App from './App';
 import routes from '../router';
 import { importAll } from '../utils';
-// import '@vant/touch-emulator';
+import './touch-emulator';
 
 const componentMap = {};
 const context = require.context('../../../src/components', true, /demo\/index.vue$/);

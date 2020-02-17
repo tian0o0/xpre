@@ -1,41 +1,41 @@
 <template>
   <demo-section>
     <demo-block :title="$t('basicUsage')">
-      <x-uploader :after-read="afterRead" />
+      <x-uploader
+        :before-read="beforeRead"
+        :after-read="afterRead"
+        upload-text="上传"
+        v-model="fileList"
+      />
     </demo-block>
 
-    <demo-block :title="$t('preview')">
+    <!-- <demo-block :title="$t('preview')">
       <x-uploader
-        v-model="fileList"
+        v-model="fileList2"
         multiple
         accept="*"
       />
-    </demo-block>
+    </demo-block> -->
 
     <demo-block :title="$t('maxCount')">
       <x-uploader
         v-model="fileList2"
         multiple
         :max-count="2"
+        accept="*"
       />
     </demo-block>
 
     <demo-block :title="$t('uploadStyle')">
-      <x-uploader>
+      <x-uploader v-model="fileList3">
         <x-button
           type="primary"
+          size="small"
           icon="photo"
         >
           {{ this.$t('upload') }}
         </x-button>
       </x-uploader>
-    </demo-block>
-
-    <demo-block :title="$t('beforeRead')">
-      <x-uploader
-        v-model="fileList3"
-        :before-read="beforeRead"
-      />
     </demo-block>
   </demo-section>
 </template>
@@ -44,7 +44,7 @@
 export default {
   i18n: {
     'zh-CN': {
-      upload: '上传文件',
+      upload: '上传',
       preview: '文件预览',
       maxCount: '限制上传数量',
       beforeRead: '上传前校验',
@@ -63,7 +63,7 @@ export default {
 
   data() {
     return {
-      fileList: [{ url: 'https://img.yzcdn.cn/vant/cat.jpeg' }],
+      fileList: [{ url: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png' }],
       fileList2: [],
       fileList3: []
     };

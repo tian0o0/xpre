@@ -1,0 +1,46 @@
+@import '../../styles/var';
+
+.x-image-preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  .x-slide,
+  .x-slide__innerwrap {
+    height: 100%;
+  }
+
+  &__image {
+    // position: absolute;
+    // top: 0;
+    // right: 0;
+    // bottom: 0;
+    // left: 0;
+    // max-width: 100%;
+    // max-height: 100%;
+    // margin: auto;
+    // display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &__index {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    color: @image-preview-index-text-color;
+    font-size: @image-preview-index-font-size;
+    letter-spacing: 2px;
+    transform: translate(-50%, 0);
+  }
+
+  &__overlay {
+    background-color: @image-preview-overlay-background-color;
+  }
+
+  .x-swipe {
+    height: 100%;
+  }
+}

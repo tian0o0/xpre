@@ -1,7 +1,17 @@
 module.exports = {
   name: 'xpre-icon',
   basic: [
+    'shanchu',
+    'zengjiadefuben',
+    'sousuo',
+    'jianshaodefuben',
     'success',
+    'fail',
+    'arrow-left',
+    'plus',
+    'photo',
+    'delete',
+    'folder'
     // 'plus',
     // 'cross',
     // 'fail',

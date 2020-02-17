@@ -14,9 +14,9 @@ Vue.use(NavBar);
 
 ```html
 <x-nav-bar
-  title="标题"
-  left-text="返回"
-  right-text="按钮"
+  title="人在塔在"
+  left-text="back"
+  right-text="开大"
   left-arrow
   @click-left="onClickLeft"
   @click-right="onClickRight"
@@ -27,18 +27,16 @@ Vue.use(NavBar);
 export default {
   methods: {
     onClickLeft() {
-      Toast('返回');
+      this.$toast('点击左按钮');
     },
     onClickRight() {
-      Toast('按钮');
+      this.$toast('点击右按钮');
     }
   }
 }
 ```
 
-### 高级用法
-
-通过插槽定制内容
+### 插槽用法
 
 ```html
 <x-nav-bar title="标题" left-text="返回" left-arrow>
@@ -50,7 +48,7 @@ export default {
 
 ### Props
 
-| 参数 | 说明 | 类型 | 默认值 | 版本 |
+| 参数 | 说明 | 类型 | 默认值 |
 |------|------|------|------|------|
 | title | 标题 | `string` | `''` | - |
 | left-text | 左侧文案 | `string` | `''` | - |

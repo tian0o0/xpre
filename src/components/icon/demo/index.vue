@@ -1,18 +1,20 @@
 <template>
   <demo-section>
     <div class="section">
-      <h3>基础图标</h3>
-      <div
+      <x-col
         v-for="icon in icons.basic"
         :key="icon"
+        span="6"
       >
         <x-icon
           :name="icon"
-          @click="hehehe('the args')"
           :class-prefix="preicon"
         />
         <span>{{ icon }}</span>
-      </div>
+      </x-col>
+      <x-col span="6">
+        <x-icon name="https://pic.superbed.cn/item/5d76295f451253d178181c27.png" />
+      </x-col>
     </div>
     <!-- <div>
       <h3>线框风格</h3>
@@ -59,11 +61,6 @@ export default {
     return {
       tab: 0
     };
-  },
-  methods: {
-    hehehe() {
-      alert(1);
-    }
   }
 };
 </script>
@@ -71,7 +68,6 @@ export default {
 <style lang="less">
 @import '../../../styles/var';
 .demo-icon {
-  font-size: 0;
 
   &-list {
     box-sizing: border-box;

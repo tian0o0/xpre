@@ -45,10 +45,10 @@ export function emit(context: Context, eventName: string, ...args: any[]) {
   if (listeners) {
     if (Array.isArray(listeners)) {
       listeners.forEach(listener => {
-        listener(...args);
+        listener.call(context, ...args);
       });
     } else {
-      listeners(...args);
+      listeners.call(context, ...args);
     }
   }
 }

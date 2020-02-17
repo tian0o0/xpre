@@ -74,7 +74,7 @@ Vue.use(Button);
 ```html 
 <x-button icon="star-o" type="primary" />
 <x-button icon="star-o" type="primary">Button</x-button>
-<x-button icon="https://recruitment-hoook.oss-cn-beijing.aliyuncs.com/logo.png" type="danger">Button</x-button>
+<x-button icon="https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png" type="danger">Button</x-button>
 ```
 
 ### Size

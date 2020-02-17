@@ -5,6 +5,7 @@
         <x-image
           width="100"
           height="100"
+          lazy-load
           :src="image"
         />
       </x-row>
@@ -125,7 +126,7 @@ export default {
 
   data() {
     return {
-      image: 'https://img.yzcdn.cn/vant/cat.jpeg',
+      image: 'https://ae01.alicdn.com/kf/H6e5e22c9a0214cf692a69097c342e981T.png',
       fits: ['contain', 'cover', 'fill', 'none', 'scale-down']
     };
   }
@@ -139,9 +140,9 @@ export default {
   overflow-x: hidden;
   background-color: @white;
 
-  .x-row {
-    padding: 0 @padding-md;
-  }
+//   .x-row {
+//     padding: 0 @padding-md;
+//   }
 
   .x-col {
     margin-bottom: 20px;

@@ -54,6 +54,7 @@ export default createComponent({
 
   created() {
     const { $Lazyload } = this;
+    console.log($Lazyload);
 
     if ($Lazyload) {
       $Lazyload.$on('loaded', this.onLazyLoaded);

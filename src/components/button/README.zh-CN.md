@@ -88,7 +88,7 @@ Vue.use(Button);
 ```html 
 <x-button icon="star-o" type="primary" />
 <x-button icon="star-o" type="primary">按钮</x-button>
-<x-button icon="https://recruitment-hoook.oss-cn-beijing.aliyuncs.com/logo.png" type="danger">按钮</x-button>
+<x-button icon="https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png" type="danger">按钮</x-button>
 ```
 
 ### 按钮尺寸
@@ -106,7 +106,7 @@ Vue.use(Button);
 
 ### Props
 
-| 参数 | 说明 | 类型 | 默认值 | 版本 |
+| Prop | State | Type | default |
 |------|------|------|------|------|
 | type | 类型，可选值为 `primary` `info` `warning` `danger` | `string` | `default` | - |
 | size | 尺寸，可选值为 `large` `small` `mini` | `string` | `normal` | - |
@@ -131,7 +131,6 @@ Vue.use(Button);
 
 ### Events
 
-| 事件名 | 说明 | 回调参数 |
+| EventName | State | Callback Parameter |
 |------|------|------|
 | click | 点击按钮，且按钮状态不为加载或禁用时触发 | event: Event |
-| touchstart | 开始触摸按钮时触发 | event: TouchEvent |

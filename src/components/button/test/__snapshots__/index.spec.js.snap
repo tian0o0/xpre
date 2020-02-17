@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`loading size 1`] = `
-<button class="x-button x-button--default x-button--normal">
+<button class="x-button x-button--default x-button--large">
   <div class="x-loading x-loading--circular x-button__loading"><span class="x-loading__spinner x-loading__spinner--circular" style="color: rgb(201, 201, 201); width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
 </button>
 `;
 
 exports[`not allow ripple when loading or disabled 1`] = `
-<button class="x-button x-button--default x-button--normal">
+<button class="x-button x-button--default x-button--large">
   <div class="x-loading x-loading--circular x-button__loading"><span class="x-loading__spinner x-loading__spinner--circular" style="color: rgb(201, 201, 201); width: 20px; height: 20px;"><svg viewBox="25 25 50 50" class="x-loading__circular"><circle cx="50" cy="50" r="20" fill="none"></circle></svg></span></div>
 </button>
 `;

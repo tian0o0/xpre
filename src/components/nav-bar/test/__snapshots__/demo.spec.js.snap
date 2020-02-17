@@ -5,15 +5,15 @@ exports[`renders demo correctly 1`] = `
   <div>
     <div class="x-nav-bar x-hairline--bottom" style="z-index: 1;">
       <div class="x-nav-bar__left"><i class="x-icon x-icon-arrow-left x-nav-bar__arrow"></i><span class="x-nav-bar__text">返回</span></div>
-      <div class="x-nav-bar__title x-ellipsis">标题</div>
-      <div class="x-nav-bar__right"><span class="x-nav-bar__text">按钮</span></div>
+      <div class="x-nav-bar__title x-ellipsis">人在塔在</div>
+      <div class="x-nav-bar__right"><span class="x-nav-bar__text">开大</span></div>
     </div>
   </div>
   <div>
     <div class="x-nav-bar x-hairline--bottom" style="z-index: 1;">
       <div class="x-nav-bar__left"><i class="x-icon x-icon-arrow-left x-nav-bar__arrow"></i><span class="x-nav-bar__text">返回</span></div>
-      <div class="x-nav-bar__title x-ellipsis">标题</div>
-      <div class="x-nav-bar__right"><i class="x-icon x-icon-search"></i></div>
+      <div class="x-nav-bar__title x-ellipsis">人在塔在</div>
+      <div class="x-nav-bar__right"><i class="x-icon x-icon-sousuo"></i></div>
     </div>
   </div>
 </div>

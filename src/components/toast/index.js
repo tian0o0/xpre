@@ -14,7 +14,7 @@ const defaultOptions = {
   message: '',
   className: '',
   onClose: null,
-  onOpened: null,
+  onOpen: null,
   duration: 3000,
   iconPrefix: undefined,
   position: 'middle',
@@ -76,9 +76,9 @@ function Toast(options = {}) {
     clear() {
       toast.value = false;
 
-      if (options.onClose) {
-        options.onClose();
-      }
+      //   if (options.onClose) {
+      //     options.onClose();
+      //   }
 
       if (multiple && !isServer) {
         toast.$on('closed', () => {

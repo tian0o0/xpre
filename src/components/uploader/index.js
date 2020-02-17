@@ -2,7 +2,7 @@ import { createNamespace, addUnit } from '../../utils';
 import { toArray, readFile, isOversize, isImageFile } from './utils';
 import Icon from '../icon';
 import Image from '../image';
-// import ImagePreview from '../image-preview';
+import ImagePreview from '../image-preview';
 
 const [createComponent, bem] = createNamespace('uploader');
 
@@ -19,10 +19,10 @@ export default createComponent({
     afterRead: Function,
     beforeRead: Function,
     previewSize: [Number, String],
-    name: {
-      type: [Number, String],
-      default: ''
-    },
+    // name: {
+    //   type: [Number, String],
+    //   default: ''
+    // },
     accept: {
       type: String,
       default: 'image/*'
@@ -50,11 +50,11 @@ export default createComponent({
   },
 
   computed: {
-    detail() {
-      return {
-        name: this.name
-      };
-    },
+    // detail() {
+    //   return {
+    //     name: this.name
+    //   };
+    // },
 
     previewSizeWithUnit() {
       return addUnit(this.previewSize);
@@ -69,10 +69,10 @@ export default createComponent({
         return;
       }
 
-      files = files.length === 1 ? files[0] : [].slice.call(files);
+      files = files.length === 1 ? files[0] : Array.prototype.slice.call(files);
 
       if (this.beforeRead) {
-        const response = this.beforeRead(files, this.detail);
+        const response = this.beforeRead(files); // , this.detail
 
         if (!response) {
           this.resetInput();
@@ -120,7 +120,7 @@ export default createComponent({
 
     onAfterRead(files, oversize) {
       if (oversize) {
-        this.$emit('oversize', files, this.detail);
+        this.$emit('oversize', files); // , this.detail
         return;
       }
 
@@ -128,7 +128,7 @@ export default createComponent({
       this.$emit('input', [...this.fileList, ...toArray(files)]);
 
       if (this.afterRead) {
-        this.afterRead(files, this.detail);
+        this.afterRead(files); // , this.detail
       }
     },
 
@@ -147,16 +147,16 @@ export default createComponent({
       }
     },
 
-    // onPreviewImage(item) {
-    //   const imageFiles = this.fileList
-    //     .filter(item => isImageFile(item))
-    //     .map(item => item.content || item.url);
+    onPreviewImage(item) {
+      const imageFiles = this.fileList
+        .filter(item => isImageFile(item))
+        .map(item => item.content || item.url);
 
-    //   ImagePreview({
-    //     images: imageFiles,
-    //     startPosition: imageFiles.indexOf(item.content || item.url)
-    //   });
-    // },
+      ImagePreview({
+        images: imageFiles,
+        startPosition: imageFiles.indexOf(item.content || item.url)
+      });
+    },
 
     renderPreview() {
       if (!this.previewImage) {
@@ -184,7 +184,7 @@ export default createComponent({
                 height: this.previewSizeWithUnit
               }}
             >
-              <Icon class={bem('file-icon')} name="description" />
+              <Icon class={bem('file-icon')} name="folder" />
               <div class={[bem('file-name'), 'x-ellipsis']}>
                 {item.file ? item.file.name : item.url}
               </div>

@@ -1,24 +1,19 @@
 <template>
   <div class="side-nav">
     <h1 class="x-title">
-      <img src="https://recruitment-hoook.oss-cn-beijing.aliyuncs.com/logo.png">
+      <img src="https://ae01.alicdn.com/kf/Hfa3f8503c37e4da7862d831690178610h.png" />
       <span>Xpre</span>
     </h1>
     <h2 class="x-desc">{{ description }}</h2>
     <template v-for="(item, index) in navList[0].groups">
-      <x-cell-group
-        :title="item.groupName"
-        :key="index"
-      >
+      <x-cell-group :title="item.groupName" :key="index">
         <!-- <mobile-nav
           v-for="(group, index) in item.groups"
           :group="group"
           :base="$vantLang"
           :key="index"
-        /> -->
-        <template
-          v-for="(navItem, _index) in item.list"
-        >
+        />-->
+        <template v-for="(navItem, _index) in item.list">
           <x-cell
             v-if="!navItem.disabled"
             :key="_index"
@@ -33,9 +28,9 @@
 </template>
 
 <script>
-import docConfig from '../doc.config';
-import MobileNav from './MobileNav';
-import { setLang } from '../utils/lang';
+import docConfig from "../doc.config";
+import MobileNav from "./MobileNav";
+import { setLang } from "../utils/lang";
 
 export default {
   components: {
@@ -50,11 +45,15 @@ export default {
 
   computed: {
     navList() {
-      return (this.docConfig[this.$vantLang].nav || []).filter(item => item.showInMobile);
+      return (this.docConfig[this.$vantLang].nav || []).filter(
+        item => item.showInMobile
+      );
     },
 
     description() {
-      return this.$vantLang === 'zh-CN' ? '探索无穷的可能' : 'Exploring Endless Possibilities';
+      return this.$vantLang === "zh-CN"
+        ? "一个差不多的组件库"
+        : "Exploring Endless Possibilities";
     }
   },
   created() {
@@ -63,7 +62,7 @@ export default {
 
   methods: {
     switchLang(lang) {
-      const from = lang === 'zh-CN' ? 'en-US' : 'zh-CN';
+      const from = lang === "zh-CN" ? "en-US" : "zh-CN";
       this.$router.push(this.$route.path.replace(from, lang));
       setLang(lang);
     }
@@ -72,7 +71,7 @@ export default {
 </script>
 
 <style lang="less">
-@import '../../../src/styles/var';
+@import "../../../src/styles/var";
 
 .side-nav {
   box-sizing: border-box;

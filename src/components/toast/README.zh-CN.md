@@ -107,18 +107,18 @@ toast2.clear();
 
 ### Options
 
-| 参数 | 说明 | 类型 | 默认值 | 版本 |
+| 参数 | 说明 | 类型 | 默认值 |
 |------|------|------|------|------|
-| type | 提示类型，可选值为 `loading` `success`<br>`fail` `html` | `string` | `text` | - |
-| position | 位置，可选值为 `top` `bottom` | `string` | `middle` | - |
-| message | 文本内容，支持通过`\n`换行 | `string` | `''` | - | - |
-| icon | 自定义图标，支持传入图标名称或图片链接，可选值见 Icon 组件 | `string` | - | - |
-| iconPrefix | 图标类名前缀 | `string` | `x-icon` | - |
-| overlay | 是否显示背景遮罩层 | `boolean` | `false` | - |
-| forbidClick | 是否禁止背景点击 | `boolean` | `false` | - |
-| loadingType | 加载图标类型, 可选值为 `spinner` | `string` | `circular` | - |
-| duration | 展示时长(ms)，值为 0 时，toast 不会消失 | `number` | `3000` | - |
+| icon | 自定义图标，支持传入图标名称或图片链接，可选值同 `Icon` 组件 | `string` | - | - |
+| iconPrefix | 图标类名前缀, 同 `Icon` 组件 | `string` | `x-icon` | - |
 | className | 自定义类名 | `any` | - | - |
-| onOpened | 完全展示后的回调函数 | `Function` | - | - |
+| loadingType | 加载图标类型, 可选值同 `Loading` 组件 | `string` | `circular` | - |
+| forbidClick | 是否禁止背景点击 | `boolean` | `false` | - |
+| message | 文本内容，支持通过`\n`换行 | `string` | `''` | - | - |
+| type | 提示类型，可选值为 `loading` `success`<br>`fail` `html` | `string` | `text` | - |
+| position | 位置，可选值为 `top` `middle` `bottom` | `string` | `middle` | - |
+| overlay | 是否显示背景遮罩层 | `boolean` | `false` | - |
+| duration | 展示时长(ms)，值为 0 时，toast 不会消失 | `number` | `3000` | - |
+| onOpen | 完全展示后的回调函数 | `Function` | - | - |
 | onClose | 关闭时的回调函数 | `Function` | - | - |
 | getContainer | 指定挂载的节点，可以传入选择器，<br>或一个返回节点的函数 | `string | () => HTMLElement` | `body` | - |

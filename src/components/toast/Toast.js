@@ -10,8 +10,8 @@ export default createComponent({
 
   props: {
     icon: String,
-    className: null,
     iconPrefix: String,
+    className: null,
     loadingType: String,
     forbidClick: Boolean,
     message: [Number, String],
@@ -23,10 +23,10 @@ export default createComponent({
       type: String,
       default: 'middle'
     },
-    lockScroll: {
-      type: Boolean,
-      default: false
-    }
+    // lockScroll: {
+    //   type: Boolean,
+    //   default: false
+    // }
   },
 
   data() {
@@ -48,6 +48,7 @@ export default createComponent({
       this.toggleClickable();
     },
 
+    // 可手动设置：toast.forbidClick = false;
     forbidClick() {
       this.toggleClickable();
     }
@@ -56,6 +57,7 @@ export default createComponent({
   methods: {
     toggleClickable() {
       const clickable = this.value && this.forbidClick;
+
       if (this.clickable !== clickable) {
         this.clickable = clickable;
         const action = clickable ? 'add' : 'remove';
@@ -66,13 +68,16 @@ export default createComponent({
     /* istanbul ignore next */
     onAfterEnter() {
       this.$emit('opened');
-      if (this.onOpened) {
-        this.onOpened();
+      if (this.onOpen) {
+        this.onOpen();
       }
     },
 
     onAfterLeave() {
       this.$emit('closed');
+      if (this.onClose) {
+        this.onClose();
+      }
     }
   },
 

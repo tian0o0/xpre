@@ -1,6 +1,6 @@
 <template>
   <demo-section>
-    <demo-block :title="$t('basicUsage')">
+    <!-- <demo-block :title="$t('basicUsage')">
       <x-row>
         <x-col span="8">8</x-col>
         <x-col span="8">8</x-col>
@@ -13,10 +13,10 @@
           span="10"
           offset="1"
         >
-          10, offset = 1
+          10, 1
         </x-col>
       </x-row>
-    </demo-block>
+    </demo-block> -->
 
     <demo-block :title="$t('title2')">
       <x-row gap="20">
