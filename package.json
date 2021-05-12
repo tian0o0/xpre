@@ -89,7 +89,7 @@
     "less": "^3.8.1",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.2.0",
-    "postcss": "^7.0.17",
+    "postcss": "^8.2.10",
     "postcss-loader": "^3.0.0",
     "progress-bar-webpack-plugin": "^1.12.1",
     "shelljs": "^0.8.3",
